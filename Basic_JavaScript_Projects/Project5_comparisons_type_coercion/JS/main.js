@@ -11,8 +11,12 @@ document.write(100 < 101); //boolean logic truth
 document.write("<br>");
 
 document.write(1000 < 100); //boolean logic false
+document.write("<br>");
 
+document.write(typeof "word"); //typeof operator displays date type of a variable. Here "word" is defined as a string
+document.write("<br>");
 
+document.write(typeof 6); //type of operator displays data type of a variable. Here 6 is an integer, if it was in quotes it would be a string.
 
 function my_Function() {
     document.getElementById("test").innerHTML=isNaN('69'); //boolean logic false. NaN="Not a Number"
