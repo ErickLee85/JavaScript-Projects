@@ -1,0 +1,97 @@
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#totalPrice {
+    width:200px;
+    height: 190px;
+    margin: 20px 0px 0px -10px;
+    float:right;
+    font-size:larger;
+}
+
+.column {    
+    height:200px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin-top: 20px;
+    float:left;
+    margin-left: 5px;
+}
+
+#cart {
+    width: fit-content;
+    height: fit-content;
+    margin-left: -5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#btnOrder {
+    width: 100px;
+    height: 40px;
+    font-family: fantasy;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;    
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#btnOrder:hover {
+    background: dimgray;
+    color: white;
+    
+}
+body {
+    background-color: rgb(255, 219, 57);
+}
+
+h3 {
+    font-family: monospace;
+    color:maroon;
+}
+
+p {
+    font-family:fantasy;
+    color:rgb(179, 7, 7);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size:2rem;
+}
+
+h4 {
+    font-family: fantasy;
+    color:rgb(179, 7, 7);
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    margin-top: 150px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(219, 180, 6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+h2 {
+    font-family: monospace;
+    color: rgb(168, 62, 0);
+}
